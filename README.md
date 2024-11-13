@@ -1,5 +1,29 @@
-<<<<<<< HEAD
-# Linux-System-Management-Script-Collection
+# Linux File Navigation Script
+
+## Project Overview
+This script allows users to navigate directories, list files (including hidden files), view file details, and return to previous directories. It’s an interactive way to explore file management and directory navigation in Linux.
+
+## Features
+- **List Files**: Shows files in the current directory.
+- **Navigate Directories**: Allows user to change directories or go back.
+- **Show Hidden Files**: Option to display hidden files.
+- **View File Details**: Displays information about a specific file.
+
+## Usage
+1. Run the script: `./navigate.sh`
+2. Follow prompts to navigate directories, view hidden files, and inspect individual file details.
+
+## What I Learned
+- Working with Linux commands like `ls`, `cd`, and `chmod`.
+- Creating interactive scripts with `read` for user input.
+- Using conditional statements to add functionality.
+
+## Example Outputs
+- Listing files in the current directory
+- Navigating to a new directory
+- Showing hidden files
+- Viewing details for a specific file
+
 
 ![image](https://github.com/user-attachments/assets/1edf6331-9ebc-4d9a-8772-80a5600eabe2)
 
@@ -27,29 +51,3 @@ In this step, I added a feature that lets the user navigate to a specified direc
 In this step, I added a go back option for navigation, letting the user type .. to move up one directory. I learned how to use conditional checks with .. to navigate up and cd .. to move back. This makes the script more user-friendly by allowing easier directory navigation.
 
 
-# Linux File Navigation Script
-
-## Project Overview
-This script allows users to navigate directories, list files (including hidden files), view file details, and return to previous directories. It’s an interactive way to explore file management and directory navigation in Linux.
-
-## Features
-- **List Files**: Shows files in the current directory.
-- **Navigate Directories**: Allows user to change directories or go back.
-- **Show Hidden Files**: Option to display hidden files.
-- **View File Details**: Displays information about a specific file.
-
-## Usage
-1. Run the script: `./navigate.sh`
-2. Follow prompts to navigate directories, view hidden files, and inspect individual file details.
-
-## What I Learned
-- Working with Linux commands like `ls`, `cd`, and `chmod`.
-- Creating interactive scripts with `read` for user input.
-- Using conditional statements to add functionality.
-
-## Example Outputs
-- Listing files in the current directory
-- Navigating to a new directory
-- Showing hidden files
-- Viewing details for a specific file
->>>>>>> 3b69432 (Initial commit of Linux file navigation project)
