@@ -1,6 +1,4 @@
 
-<h1 align="center">Linux System Management Script Collection</h1>
-
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Linux Logo" width="200"/>
 </p>
